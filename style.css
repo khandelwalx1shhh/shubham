@@ -2098,3 +2098,108 @@ p {
   margin-bottom: 0;
   font-size: 1.2rem; /* Slightly smaller font size */
 }
+/* Compact Cards */
+.card-compact {
+  background: var(--light-gray);
+  padding: 1.2rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.card-compact h3 {
+  color: var(--primary-color);
+  font-size: 1.1rem;
+  margin-bottom: 0.8rem;
+}
+
+/* Secure Payment Features */
+.feature-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.feature-item i {
+  color: var(--secondary-color);
+  width: 20px;
+  text-align: center;
+}
+
+.feature-item p {
+  font-size: 0.85rem;
+  color: var(--text-gray);
+  margin: 0;
+}
+
+/* After Payment Process */
+.process-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.step-number {
+  background: var(--secondary-color);
+  color: white;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  flex-shrink: 0;
+}
+
+.step p {
+  font-size: 0.85rem;
+  color: var(--text-gray);
+  margin: 0;
+}
+
+/* Contact Support */
+.support-contact p {
+  font-size: 0.85rem;
+  margin: 0.3rem 0;
+}
+
+.support-contact i {
+  color: var(--secondary-color);
+  width: 20px;
+}
+/* After Payment Process */
+.process-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.step i {
+  color: var(--secondary-color);
+  width: 20px;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.step span {
+  font-size: 0.9rem;
+  color: var(--text-gray);
+}

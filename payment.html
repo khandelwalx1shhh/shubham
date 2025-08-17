@@ -19,14 +19,11 @@
     <!-- Navigation -->
     <nav class="navbar" id="navbar">
       <div class="nav-container">
-        <div class="nav-logo">
-          <img
-            src="https://i.postimg.cc/507Zf8yt/logo.png"
-            alt="Fingard Partners Logo"
-            style="height: 40px; width: auto"
-          />
-          <span>Fingard Partners</span>
-        </div>
+            <a href="index.html" class="nav-logo">
+        <img src="https://i.postimg.cc/507Zf8yt/logo.png" alt="Fingard Partners Logo" style="height: 40px; width: auto;">
+        <span>Fingard Partners</span>
+    </a>
+    
         <div class="nav-menu" id="nav-menu">
           <a href="index.html" class="nav-link">Home</a>
           <a href="about.html" class="nav-link">About Us</a>
@@ -64,14 +61,36 @@
                   <label for="service-type">Service Type *</label>
                   <select id="service-type" name="service-type" required>
                     <option value="">Select a service</option>
-                    <option value="standard">Standard</option>
-                    <option value="multiple">
-                      Multiple Form 16
+
+                    <!-- ITR Filing Packages -->
+                    <option value="itr-standard">ITR Standard</option>
+                    <option value="itr-multiple-form-16">
+                      ITR Multiple Form 16
                     </option>
-                    <option value="business-income">Business Income</option>
-                    <option value="capital-gain">Capital Gain</option>
-                    <option value="nri">NRI</option>
-                    <option value="forign">Forign</option>
+                    <option value="itr-business-income">
+                      ITR Business Income
+                    </option>
+                    <option value="itr-capital-gain">ITR Capital Gain</option>
+                    <option value="itr-nri">ITR NRI</option>
+                    <option value="itr-foreign">ITR Foreign</option>
+
+                    <!-- Tax Planning Packages -->
+                    <option value="tax-planning-basic">
+                      Tax Planning Basic
+                    </option>
+                    <option value="tax-planning-standard">
+                      Tax Planning Standard
+                    </option>
+                    <option value="tax-planning-premium">
+                      Tax Planning Premium
+                    </option>
+
+                    <!-- Tax Consultation -->
+                    <option value="first-consultation-call">
+                      First Consultation Call
+                    </option>
+
+                    <!-- Custom Option -->
                     <option value="custom">Custom Amount</option>
                   </select>
                 </div>
@@ -178,79 +197,70 @@
               </form>
             </div>
           </div>
+          <!-- Right Column: Payment Info & What Happens After Payment -->
+<div class="payment-info-section">
+ <!-- Right Column -->
+<div class="payment-info-section">
+  <!-- Secure Payment Card -->
+  <div class="info-card">
+    <h3>Secure Payment</h3>
+    <div class="info-item">
+      <i class="fas fa-lock"></i>
+      <p>SSL Encrypted transactions</p>
+    </div>
+    <div class="info-item">
+      <i class="fas fa-credit-card"></i>
+      <p>Pay via Cards, UPI & Net Banking</p>
+    </div>
+    <div class="info-item">
+      <i class="fas fa-receipt"></i>
+      <p>Instant payment receipt</p>
+    </div>
+    <div class="info-item">
+      <i class="fas fa-shield-alt"></i>
+      <p>100% safe & reliable</p>
+    </div>
+  </div>
 
-          <!-- Payment Info -->
-          <div class="payment-info-section">
-            <div class="payment-features">
-              <h3>Secure Payment Features</h3>
-              <div class="feature-list">
-                <div class="feature-item">
-                  <i class="fas fa-shield-alt"></i>
-                  <div>
-                    <h4>SSL Encrypted</h4>
-                    <p>Your payment information is encrypted and secure</p>
-                  </div>
-                </div>
-                <div class="feature-item">
-                  <i class="fas fa-credit-card"></i>
-                  <div>
-                    <h4>Multiple Payment Options</h4>
-                    <p>Credit/Debit Cards, UPI, Net Banking, Wallets</p>
-                  </div>
-                </div>
-                <div class="feature-item">
-                  <i class="fas fa-receipt"></i>
-                  <div>
-                    <h4>Instant Receipt</h4>
-                    <p>Get immediate payment confirmation and receipt</p>
-                  </div>
-                </div>
-              </div>
-            </div>
+  <!-- After Payment Card -->
+  <div class="info-card">
+    <h3>What happens after payment?</h3>
+    <div class="info-item">
+      <i class="fas fa-clock"></i>
+      <p>Team contacts you within 2 hour</p>
+    </div>
+    <div class="info-item">
+      <i class="fas fa-file-alt"></i>
+      <p>Guidance for required documents/details</p>
+    </div>
+    <div class="info-item">
+      <i class="fas fa-user-check"></i>
+      <p>Expert verification by eCA</p>
+    </div>
+    <div class="info-item">
+      <i class="fas fa-cogs"></i>
+      <p>Service execution begins (ITR Filing / Tax Planning / Consultation)</p>
+    </div>
+    <div class="info-item">
+      <i class="fas fa-check-circle"></i>
+      <p>Review & confirmation from your side</p>
+    </div>
+  </div>
 
-            <!-- <div class="service-pricing">
-                        <h3>Service Pricing Guide</h3>
-                        <div class="pricing-list">
-                            <div class="pricing-item">
-                                <span>Tax Consultation</span>
-                                <span>Starting from ₹2,000</span>
-                            </div>
-                            <div class="pricing-item">
-                                <span>Financial Planning</span>
-                                <span>Starting from ₹5,000</span>
-                            </div>
-                            <div class="pricing-item">
-                                <span>Business Advisory</span>
-                                <span>Starting from ₹10,000</span>
-                            </div>
-                            <div class="pricing-item">
-                                <span>Compliance Services</span>
-                                <span>Starting from ₹15,000</span>
-                            </div>
-                            <div class="pricing-item">
-                                <span>Accounting Services</span>
-                                <span>Starting from ₹8,000</span>
-                            </div>
-                        </div>
-                        <p class="pricing-note">*Pricing may vary based on complexity and requirements. Contact us for detailed quotes.</p>
-                    </div> -->
+  <!-- Contact Card -->
+  <div class="info-card contact-card">
+    <h3><i class="fas fa-headset"></i> Need Help?</h3>
+    <div class="info-item">
+      <i class="fas fa-phone"></i>
+      <p>+91 9116641804 / +91 9116033573</p>
+    </div>
+    <div class="info-item">
+      <i class="fas fa-envelope"></i>
+      <p>fingardpartners@gmail.com</p>
+    </div>
+  </div>
+</div>
 
-            <div class="contact-support">
-              <h3>Need Help?</h3>
-              <p>
-                If you have any questions about payment or need assistance,
-                contact our support team:
-              </p>
-              <div class="support-contact">
-                <p>
-                  <i class="fas fa-phone"></i> +91 9116641804 / +91 9116033573
-                </p>
-                <p><i class="fas fa-envelope"></i> fingardpartners@gmail.com</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </section>
 
     <!-- Payment Methods -->
